@@ -462,7 +462,7 @@
                   {#if !isProcessing && !showResults}
                     <div in:fly={{ y: 20, duration: 600 }}>
                       <img
-                        src="/auction1.png"
+                        src="/exampleauc.png"
                         alt="Sample auction lot"
                         class="w-full h-auto"
                       />
