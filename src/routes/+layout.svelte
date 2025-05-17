@@ -1,10 +1,7 @@
 <script>
   import "../app.css";
-  
-  let currentPath;
-  if (typeof window !== 'undefined') {
-    currentPath = window.location.pathname;
-  }
+  import { page } from "$app/stores";
+  $: currentPath = $page.url.pathname;
 </script>
 
 <!-- Global Navigation -->
@@ -44,6 +41,12 @@
           class="inline-flex items-center px-1 pt-1 {currentPath === '/auctioneer-ai' ? 'border-b-2 border-blue-500 text-gray-900' : 'text-gray-500 hover:text-gray-700'}"
         >
           AuctioneerAI
+        </a>
+        <a 
+          href="/auctioneering" 
+          class="inline-flex items-center px-1 pt-1 {currentPath === '/auctioneering' ? 'border-b-2 border-blue-500 text-gray-900' : 'text-gray-500 hover:text-gray-700'}"
+        >
+          Auctioneering
         </a>
       </div>
     </div>

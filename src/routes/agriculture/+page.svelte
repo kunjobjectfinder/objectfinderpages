@@ -73,25 +73,6 @@
   </script>
   
   <div class="min-h-screen bg-gray-50">
-    <nav class="bg-white shadow-sm">
-      <div class="max-w-7xl mx-auto px-4">
-        <div class="flex justify-between h-16">
-          <div class="flex items-center">
-            <a href="/homepage" class="text-xl font-bold text-[#4B6BFB]">ObjectFinder</a>
-          </div>
-          <div class="flex items-center space-x-8">
-            <a href="/homepage" class="text-gray-600 hover:text-gray-900">Home</a>
-            <a href="/agriculture" class="text-gray-900">AgriFinder</a>
-            <a href="/scrap-finder" class="text-gray-600 hover:text-gray-900">ScrapyardFinder</a>
-            <a href="/rescue-finder" class="text-gray-600 hover:text-gray-900">RescueFinder</a>
-            <a href="/dashboard" class="text-gray-600 hover:text-gray-900">Dashboard</a>
-            <a href="/billing" class="text-gray-600 hover:text-gray-900">Billing</a>
-            <button class="bg-[#4B6BFB] text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Sign Out</button>
-          </div>
-        </div>
-      </div>
-    </nav>
-
     <main>
       <!-- Hero Section -->
       <section class="py-20 px-4 text-center bg-gradient-to-br from-emerald-100 via-emerald-50 to-white relative overflow-hidden">

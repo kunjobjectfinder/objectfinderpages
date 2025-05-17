@@ -104,22 +104,7 @@
 </script>
 
 <div class="min-h-screen bg-gray-50">
-      <!-- Inlined Navbar -->
-      <nav class="bg-white shadow-sm">
-        <div class="max-w-7xl mx-auto px-4">
-          <div class="flex justify-between h-16">
-            <div class="flex items-center">
-              <a href="/" class="text-xl font-bold text-gray-800">{brandName}</a>
-            </div>
-            <div class="flex space-x-8">
-              <a href="/agriculture" class="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-gray-700">Agriculture</a>
-              <a href="/rescue-finder" class="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-gray-700">Rescue</a>
-              <a href="/scrap-finder" class="inline-flex items-center px-1 pt-1 border-b-2 border-purple-500 text-gray-900">Scrap</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-  
+  <!-- Removed inlined navigation bar, global nav will be used -->
   <main>
     <!-- Hero Section -->
         <section class="py-20 px-4 text-center bg-gradient-to-br from-purple-100 via-purple-50 to-white relative overflow-hidden">
@@ -515,17 +500,7 @@
                     { title: "Inventory Tracking", desc: "GPS-based part location", icon: "📍" }
                   ]
                 },
-                {
-                  icon: "📊",
-                  title: "Data Management",
-                  subtitle: "Comprehensive reporting & analytics",
-                  features: [
-                    { title: "Analytics Dashboard", desc: "Real-time performance metrics", icon: "📈" },
-                    { title: "Custom Reports", desc: "Detailed business insights", icon: "📋" },
-                    { title: "Market Analysis", desc: "Price trend monitoring", icon: "💹" },
-                    { title: "Data Export", desc: "Integration with existing systems", icon: "💾" }
-                  ]
-                }
+                
               ] as card}
                 <div class="group relative h-full">
                   <div class="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-purple-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000"></div>

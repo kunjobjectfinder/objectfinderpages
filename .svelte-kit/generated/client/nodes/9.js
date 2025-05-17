@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/scrap-finder/+page.svelte";
+export { default as component } from "../../../../src/routes/rescue-finder/+page.svelte";

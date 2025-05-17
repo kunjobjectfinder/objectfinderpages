@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/rescue-finder/+page.svelte";
+export { default as component } from "../../../../src/routes/opti-finder/+page.svelte";
